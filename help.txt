@@ -1,0 +1,140 @@
+﻿INSTRUCTIONS FOR USE
+
+NOTE: Before performing these steps, please ensure you have the latest version of java installed. You can download the latest version of java at https://java.com/en/download/.
+
+
+///////////////////////////////
+/// OPENING THE APPLICATION /// 
+///////////////////////////////
+
+To start the application using the Command Line, follow these steps.
+
+1. Open up your command line program (i.e. Terminal, Command Prompt).
+
+2. Find the location of the “src” folder for the program. Set your current directory to that folder by doing:
+
+	FOR WINDOWS: cd \Filepath\src
+	FOR MAC: cd /Filepath/src
+
+2. (b) Check your present working directory to ensure you’re in the right place for running.
+
+	For WINDOWS and MAC: pwd
+	…should return: /Filepath/src
+
+3. Insert the following into the command line to compile the program:
+					
+	FOR WINDOWS: javac Application\Main.java 
+	FOR MAC: javac Application/Main.java
+
+3. After the code has compiled, run the program by inserting the following into the command line:
+
+	FOR WINDOWS: java Application\Main
+	FOR MAC: java Application/Main
+
+4. After the program has run, the application will appear in a new window on your screen.
+
+To start the application using IntelliJ IDEA,  please follow the instructions given in this link: https://www.jetbrains.com/help/idea/running-applications.html
+
+
+
+/////////////////////////////
+/// USING THE APPLICATION /// 
+/////////////////////////////
+
+***NOTES***
+FILENAMES OUTSIDE THE APPLICATION
+	If a filename is changed *outside* of the application (i.e. it is renamed or relocated), the application will lose track of the file.
+SELECTING MULTIPLE ITEMS
+	To select multiple items use SHIFT+CLICK or CTRL+CLICK!
+
+The application opens at the “Home” display. There are several options displayed as buttons.
+
+If you would like to…
+
+VIEW AN IMAGE
+	(1) Select a directory by choosing the “Select Directory” button, which will prompt the OS’ File Explorer.
+	(2) Choose an Image from the list displayed, then press the "Edit Image" button.
+	
+CREATE A TAG
+	(1) Go to the Active Tags Scene by choosing the "Active Tags" button found on the home scene and other scenes.
+	(2) Insert the tag (without the @ symbol) you wish to create into the text box near the bottom.
+	(3) Click "Create a Tag" button to create the tag!
+
+TAG AN IMAGE
+	TAG IMAGE WITH NEW TAG
+	(1) Move into the Edit Image scene as described in VIEW AN IMAGE
+	(2) Insert the name of a tag in the text box below (beside the “Add” button), and press the “Add” button.
+	(3) A tag will have been added to your image!
+	TAG IMAGE WITH EXISTING TAGS
+	(1) Move into the Edit Image scene as described in VIEW AN IMAGE.
+	(2) Select one or multiple tag(s) from the "All Tags" list on the right, to select multiple use shift click or crtl click.
+	(3) Click on the "Add Tag(s) to the Image" button to add the selected Tag(s).
+
+TAG MULTIPLE IMAGES
+	(1) Select a directory by choosing the “Select Directory” button.
+	(2) Select the image file(s) you wish to tag by click, shift click or crtl click, a button and text box should become available after this.
+	(3) Insert the name of a tag in the text box below and then press "Create a Tag for Images" to tag the image files!
+
+REMOVE TAG(S) FROM AN IMAGE
+	(1) Follow the steps for VIEW AN IMAGE.
+	(2) Instead of adding a tag, simply select the tag(s) you’d like to remove, and press the “Remove” button. 
+
+REVERT AN IMAGE BACK TO OLDER TAGS
+	(1) Follow the steps for VIEW AN IMAGE.
+	(2) Click on the “View History” Button, which will open up a list of old states.
+	(3) Select a state to revert the image to, and press the “Revert” button.
+
+MOVE A FILE
+	(1) Follow the steps for VIEW AN IMAGE.
+	(2) Press the “Move File” button.
+	(3) Select a directory for your image to be moved to.
+
+VIEW ALL TAGS YOU’VE MADE
+	(1) From the “Home” scene, click the “Active Tags” button. NOTE: A list of all tags is available when viewing an image.
+	(2) Here, you can view all existing tags that you have created.
+
+REMOVE ALL INSTANCES OF A TAG
+	(1) From the “Active Tags” screen, simply select the tag you’d like to be removed from all images.
+	(2) Press the “Remove” button.
+
+VIEW LOG OF ALL TAGGING DONE
+	(1) From the Home scene, click on the "Master Log" button.
+
+CLOSE THE APPLICATION
+	(1) From the Home scene, simply press the “Close Application” button.
+
+VIEW THE MOST RECENT FOLDER
+	…if you’ve already selected a folder and would like to go back to it from viewing an image, or from the home menu:
+	(1) Press the “Back To Folder” button.
+	Otherwise, you will be prompted to select a folder.
+
+SAVE YOUR TAGS
+	Saving is done automatically as you perform operations on your images.
+
+IMPORTING TAGS NOT IN THE APPLICATION YET
+	If an image file on your computer has a tag on not added by our application, you must select the directory it is located in to add it to the application.
+	Whenever a directory is selected via this application, all of the image files not in the application will be added to the application.
+
+SEARCH FOR IMAGES WITH SPECIFIC TAG(s)
+	This feature allows a user to select one or multiple tags that exist and view every image encountered by this application that has them.
+	If multiple tags are selected to search for, images must have *all of the selected tags* to be viewed. There are two ways to this.
+	
+	FROM DIRECTORY DISPLAY
+		If you’re viewing directory files, you can select some tags from the Active Tags menu and filter the images for those tags.
+		Otherwise, you can go to the Active Tags page.
+		If you’d like to stop the filtering, just press “Remove Filtering”.
+	
+	FROM ACTIVE TAGS
+		You can select one or more tags that you’d like to search for.
+		Press the “Search for Images” button, which will return a list of images with those tags.
+		To stop the filtering, just press “Remove Filtering”.
+
+
+///////////////
+/// CREDITS /// 
+///////////////
+
+Nikolas Till
+Sterling Best
+Schneider Victor-Tulias
+Aaron Rambhajan
